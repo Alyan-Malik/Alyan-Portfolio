@@ -6,6 +6,8 @@ import Meteors from "@/components/ui/meteors";
 import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
 import { FlipWords } from "@/components/ui/flip-words";
+import resume from "@/assets/files/Alyan Resume.pdf";
+
 
 // Grid Background - Replacing the HexagonBackground
 const GridBackground = () => {
@@ -237,7 +239,7 @@ profile = Profile()
 
                 {/* Contact Button */}
                 <a
-                  href="src/assets/files/Alyan Resume.pdf" target="_blank"
+                  href={resume} target="_blank"
                   className="group relative inline-flex items-center justify-center gap-3 p-0.5 rounded-xl bg-gradient-to-r from-gray-800 to-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-[0_0_2rem_-0.5rem_#60A5FA]"
                 >
                   <span className="block w-full px-6 sm:px-8 py-3 sm:py-4 rounded-[11px] bg-gray-900 border border-gray-700/50 transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-gray-800 group-hover:to-gray-700">
