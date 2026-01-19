@@ -300,7 +300,7 @@ profile = Profile()
           </span>
           <i className="fas fa-chevron-down text-blue-400 text-xl"></i>
         </div>
-        <PortfolioPage />z
+        <PortfolioPage />
       </main>
     </>
   );
