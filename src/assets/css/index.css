@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Dark Portfolio Design System */
+
+@layer base {
+  :root {
+    /* Dark theme as default for portfolio */
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 6%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Custom accent colors for sections */
+    --accent-blue: 210 100% 50%;
+    --accent-purple: 270 91% 65%;
+    --accent-green: 160 84% 39%;
+    --accent-pink: 340 82% 65%;
+    --accent-orange: 25 95% 53%;
+
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 47% 6%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 217 91% 60%;
+  }
+
+  .dark {
+    --background: 222 47% 6%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 222 47% 6%;
+
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
+    
+    --sidebar-background: 222 47% 6%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 217 91% 60%;
+    --sidebar-primary-foreground: 222 47% 6%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  /* Text gradient utility */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r;
+  }
+}
+
+
+.description-swiper .swiper-pagination {
+  position: absolute;
+  bottom: 0;       /* Always at bottom of swiper container */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* White dots */
+.description-swiper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0 6px;
+  background-color: white;
+  opacity: 0.35;
+}
+
+.description-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+/* RIGHT PANEL PAGINATION FIX */
+.right-panel-swiper .swiper-pagination {
+  position: absolute;
+  bottom: 16px;
+  left: 0 !important;
+  right: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White dots */
+.right-panel-swiper .swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.35;
+}
+
+.right-panel-swiper .swiper-pagination-bullet-active {
+  background-color: white !important;
+  opacity: 1;
+}
+
+/* Spacing & size */
+.right-panel-swiper .swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  margin: 0 6px !important;
+  padding: 4px;
+}
+
+
+
+
+.description-swiper {
+  height: calc(100% - 50px); /* 50px reserved for icons, adjust as needed */
+  position: relative;
+}
