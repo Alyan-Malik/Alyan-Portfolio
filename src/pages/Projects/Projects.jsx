@@ -360,6 +360,34 @@ import { motion } from "framer-motion";
 import ProjectSection from "@/components/ProjectSection";
 import Meteors from "@/components/ui/meteors";
 
+import auction from "@/assets/images/eAuction.jpeg";
+import auction2 from "@/assets/images/eAuction2.jpeg";
+import auction3 from "@/assets/images/eAuction3.png";
+
+import reflector from "@/assets/images/reflector.jpeg";
+import reflector2 from "@/assets/images/reflector2.jpeg";
+import reflector3 from "@/assets/images/reflector3.jpeg";
+
+import meter from "@/assets/images/meter.jpg";
+import meter2 from "@/assets/images/meter4.jpeg";
+import meter3 from "@/assets/images/meter6.jpeg";
+
+import captcha from "@/assets/images/captcha5.jpg";
+import captcha2 from "@/assets/images/captcha6.png";
+
+import webscrapermarket from "@/assets/images/webscraper3.png";
+import webscrapermarket2 from "@/assets/images/webscraper2.png";
+
+import webscraper from "@/assets/images/webscraper6.jpg";
+import webscraper2 from "@/assets/images/webscraper5.png";
+
+
+
+
+
+
+
+
 // Web Development Projects
 const webProjects = [
   {
@@ -380,15 +408,15 @@ const webProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/eAuction.jpeg",
+      image: auction,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/eAuction2.jpeg",
+      image: auction2,
       // caption: "System architecture"
     },
     {
-      image: "src/assets/images/eAuction3.png",
+      image: auction3,
       // caption: "Admin dashboard & analytics"
     }
   ],
@@ -415,15 +443,15 @@ const webProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/reflector.jpeg",
+      image: reflector,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/reflector2.jpeg",
+      image: reflector2,
       // caption: "System architecture"
     },
     {
-      image: "src/assets/images/reflector3.jpeg",
+      image: reflector3,
       // caption: "Admin dashboard & analytics"
     }
   ],
@@ -489,15 +517,15 @@ const mlProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/meter.jpg",
+      image: meter,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/meter4.jpeg",
+      image: meter2,
       // caption: "System architecture"
     },
     {
-      image: "src/assets/images/meter6.jpeg",
+      image: meter3,
       // caption: "Admin dashboard & analytics"
     }
   ],
@@ -524,11 +552,11 @@ const mlProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/captcha5.jpg",
+      image: captcha,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/captcha6.png",
+      image: captcha2,
       // caption: "System architecture"
     },
     
@@ -561,11 +589,11 @@ const scrapingProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/webscraper3.png",
+      image: webscrapermarket,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/webscraper2.png",
+      image: webscrapermarket2,
       // caption: "System architecture"
     },
   ],
@@ -592,11 +620,11 @@ const scrapingProjects = [
 ],
   slides: [
     {
-      image: "src/assets/images/webscraper6.jpg",
+      image: webscraper,
       // caption: "Live bidding interface"
     },
     {
-      image: "src/assets/images/webscraper5.png",
+      image: webscraper2,
       // caption: "System architecture"
     },
     
