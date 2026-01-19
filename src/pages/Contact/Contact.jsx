@@ -117,6 +117,16 @@ export default function Contact() {
                 </div>
 
                 <div className="flex items-center space-x-4">
+                  <div className="bg-blue-500/10 p-3 rounded-lg">
+                    <Phone className="w-6 h-6 text-blue-400" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold">Phone</h3>
+                    <p className="text-gray-400">+92-332-1949001</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-4">
                   <div className="bg-pink-500/10 p-3 rounded-lg">
                     <MapPin className="w-6 h-6 text-pink-400" />
                   </div>
